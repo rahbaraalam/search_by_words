@@ -1,5 +1,9 @@
 var choice = prompt("Search birds and animals pictures here.")
-    if(choice.toLowerCase() =="crow"){
+
+        if(choice.endsWith(" ")){
+                alert("don't add spaces in word")
+        }        
+    else if(choice.toLowerCase()=="crow"){
             document.querySelector(".img-container").style.display="block"
             var img=document.querySelector("img")
             img.src="birds/crow.avif"
@@ -245,3 +249,117 @@ var choice = prompt("Search birds and animals pictures here.")
         img.src="animals/monkey.avif"
         document.querySelector("p").innerHTML="monkey"   
     }
+
+    
+    else if(choice.toLowerCase()=="bear"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/bear.jpg"
+        document.querySelector("p").innerHTML="Bear"   
+    }
+
+    else if(choice.toLowerCase()=="cat"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/cat.jpg"
+        document.querySelector("p").innerHTML="Cat"   
+    }
+
+    else if(choice.toLowerCase()=="horse"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/horse.webp"
+        document.querySelector("p").innerHTML="Horse"   
+    }
+
+    else if(choice.toLowerCase()=="camel"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/camel.jpg"
+        document.querySelector("p").innerHTML="Camel"   
+    }
+
+    else if(choice.toLowerCase()=="kangaroo"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/kangaroo.jpg"
+        document.querySelector("p").innerHTML="kangaroo"   
+    }
+
+    else if(choice.toLowerCase()=="deer"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/deer.jpg"
+        document.querySelector("p").innerHTML="Deer"   
+    }
+
+    else if(choice.toLowerCase()=="dolphin"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/dolphin.webp"
+        document.querySelector("p").innerHTML="dolphin"   
+    }
+
+    else if(choice.toLowerCase()=="giraffe"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/giraffe.jpg"
+        document.querySelector("p").innerHTML="Giraffe"   
+    }
+
+    
+    else if(choice.toLowerCase()=="gorilla"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/gorilla.jpg"
+        document.querySelector("p").innerHTML="Gorilla"   
+    }
+
+    
+    else if(choice.toLowerCase()=="squirrel"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/squirrel.jpg"
+        document.querySelector("p").innerHTML="Squirrel"   
+    }
+
+    
+    else if(choice.toLowerCase()=="buffalo"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/buffalo.jpg"
+        document.querySelector("p").innerHTML="Buffalo"   
+    }
+
+    else if(choice.toLowerCase()=="donkey"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/donkey.jpg"
+        document.querySelector("p").innerHTML="Donkey"   
+    }
+
+    else if(choice.toLowerCase()=="goat"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/goat.webp"
+        document.querySelector("p").innerHTML="Goat"   
+    }
+
+    else if(choice.toLowerCase()=="snake"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/snake.jpg"
+        document.querySelector("p").innerHTML="Snake"   
+    }
+
+    else if(choice.toLowerCase()=="alligator"){
+        document.querySelector(".img-container").style.display="block"
+        var img=document.querySelector("img")
+        img.src="animals/alligator.jpg"
+        document.querySelector("p").innerHTML="Alligator"   
+    }
+
+    else{
+        alert("no match")
+    }
+    
